@@ -12,14 +12,23 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
 
     String[] questions = {
-            "یک زن و شوهر 7 پسردارند و هر پسر یک خواهر این خانواده چند نفره هستند ؟"
+            "یک زن و شوهر 7 پسردارند و هر پسر یک خواهر این خانواده چند نفره هستند ؟",
+            "آن چه چیزی است که در رادیو و دریا مشترک و هر دو آن را دارا می باشند ؟",
+            "آن چیست که سر ندارد، کلاه دارد، یک پا دارد و کفش ندارد؟",
+            "آن چیست قبای زرد در بر دارد، اندام ظریف چون صنوبر دارد، زرد است، به مشام تلخ است ولی طعمی چون شکر دارد؟",
+            "آن چیست که یک چشم و یک پا دارد؟"
     };
     String[] answers = {
-            "ده نفر"
+            "ده نفر",
+            "موج",
+            "قارچ",
+            "لیمو شیرین",
+            "سوزن"
     };
 
     TextView txtQues, txtMask, txtWrong;
@@ -40,9 +49,17 @@ public class GameActivity extends AppCompatActivity {
         reset();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        reset();
+    }
+
     private void reset() {
-        txtQues.setText(questions[0]);
-        currect = answers[0];
+        Random rn = new Random();
+        int rand = rn.nextInt(questions.length);
+        txtQues.setText(questions[rand]);
+        currect = answers[rand];
         mask = "";
         wrong = "";
         wrongIndex = 0;
@@ -94,7 +111,6 @@ public class GameActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                         reset();
-                        Log.e("TAG", "won");
                 }
             }, 2000);
 
