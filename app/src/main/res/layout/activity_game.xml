@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ir.adicom.app.chistanapp.GameActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/txtQuestion"
+        android:gravity="right" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/txtMask"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/txtWrong"
+        android:gravity="center"
+        android:textColor="#FF0000" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ث"
+                android:id="@+id/button"
+                android:tag="1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ت"
+                android:id="@+id/button2"
+                android:tag="2"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="‍پ"
+                android:id="@+id/button3"
+                android:tag="3"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ب"
+                android:id="@+id/button4"
+                android:tag="4"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="الف"
+                android:id="@+id/button5"
+                android:tag="5"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="د"
+                android:id="@+id/button6"
+                android:tag="6"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="خ"
+                android:id="@+id/button7"
+                android:tag="7"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ح"
+                android:id="@+id/button8"
+                android:tag="8"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="چ"
+                android:id="@+id/button9"
+                android:tag="9"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ج"
+                android:id="@+id/button10"
+                android:tag="10"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="س"
+                android:id="@+id/button11"
+                android:tag="11"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ژ"
+                android:id="@+id/button12"
+                android:tag="12"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ز"
+                android:id="@+id/button13"
+                android:tag="13"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ر"
+                android:id="@+id/button14"
+                android:tag="14"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ذ"
+                android:id="@+id/button15"
+                android:tag="15"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ظ"
+                android:id="@+id/button16"
+                android:tag="16"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ط"
+                android:id="@+id/button17"
+                android:tag="17"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ض"
+                android:id="@+id/button18"
+                android:tag="18"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ص"
+                android:id="@+id/button19"
+                android:tag="19"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ش"
+                android:id="@+id/button20"
+                android:tag="20"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ک"
+                android:id="@+id/button21"
+                android:tag="21"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ق"
+                android:id="@+id/button22"
+                android:tag="22"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ف"
+                android:id="@+id/button23"
+                android:tag="23"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="غ"
+                android:id="@+id/button24"
+                android:tag="24"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ع"
+                android:id="@+id/button25"
+                android:tag="25"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="و"
+                android:id="@+id/button26"
+                android:tag="26"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ن"
+                android:id="@+id/button27"
+                android:tag="27"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="م"
+                android:id="@+id/button28"
+                android:tag="28"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ل"
+                android:id="@+id/button29"
+                android:tag="29"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="گ"
+                android:id="@+id/button30"
+                android:tag="30"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ی"
+                android:id="@+id/button31"
+                android:tag="31"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="ه"
+                android:id="@+id/button32"
+                android:tag="32"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="onClick" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
